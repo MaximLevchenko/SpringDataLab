@@ -35,5 +35,62 @@ public class Book implements Serializable {
     @Enumerated(EnumType.STRING)
     private GanreEnum ganre;
 
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public Integer getPagesCount() {
+        return pagesCount;
+    }
+
+    public void setPagesCount(Integer pagesCount) {
+        this.pagesCount = pagesCount;
+    }
+
+    public Year getReleaseDate() {
+        return releaseDate;
+    }
+
+    public void setReleaseDate(Year releaseDate) {
+        this.releaseDate = releaseDate;
+    }
+
+    public String getBooking() {
+        return booking;
+    }
+
+    public void setBooking(String booking) {
+        this.booking = booking;
+    }
+
+    public Author getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(Author author) {
+        this.author = author;
+    }
+
+    public GanreEnum getGanre() {
+        return ganre;
+    }
+
+    public void setGanre(GanreEnum ganre) {
+        this.ganre = ganre;
+    }
+
+
 
 }
