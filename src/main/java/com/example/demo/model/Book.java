@@ -13,7 +13,7 @@ import java.time.Year;
  * Created by Brainacad4 on 06.08.2019.
  */
 @Entity
-@Table(name = "book")
+@Table(name = "book_library")
 @NoArgsConstructor
 @Data
 public class Book implements Serializable {
