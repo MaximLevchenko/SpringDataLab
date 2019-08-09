@@ -1,11 +1,15 @@
 package com.example.demo.model;
 
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
-@org.springframework.stereotype.Controller
+import javax.swing.text.View;
+
+@RestController
 public class Controller {
     @RequestMapping("/")
     public String getView() {
+
         return "view";
     }
 }
